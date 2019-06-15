@@ -7,19 +7,24 @@
  */
 class Users extends CI_Controller
 {
-    function __construct()
+    public function __construct()
     {
         parent::__construct();
     }
 
     public function index()
     {
-        echo "merhaba";
+        echo "mustafa bozkaya";
     }
 
     public function login_form()
     {
         $this->load->view("login_v");
+    }
+
+    public function register_form()
+    {
+        $this->load->view("register_v");
     }
 
     public function login()
