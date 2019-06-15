@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Aşagıdaki gibi hata almamak için controlur ve metotlarına erişmemiz için
+#yukarıdaki gibi sayfa adından sonra gelen herşeyi index.php sayfasına yönlendirmemiz gerekiir
+
+#<h1>Nesne mevcut değil!</h1>
+#<p>
+#
+#
+#    Talep ettiğiniz URL, sunucu üzerinde bulunmuyor.
+#
+#
+#
+#    URL'yi elle girdiyseniz, yazdıklarınızı gözden geçirip yeniden deneyin.
+#
+#
+#
+#</p>
+#<p>
+#Bunun bir sunucu hatas&#305; oldu&#287;unu dü&#351;ünüyorsan&#305;z, lütfen
+#<a href="mailto:postmaster@localhost">site
+#yöneticisi</a> ile ileti&#351;ime geçin.
+#
+#</p>
+#
+#<h2>Error 404</h2>
+#<address>
+#  <a href="/">localhost</a><br />
+#  <span>Apache/2.4.38 (Win64) OpenSSL/1.0.2r PHP/7.1.27</span>
+#</address>
