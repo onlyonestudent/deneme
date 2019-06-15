@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ansayfa</title>
-    <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap-3.3.7-dist/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
 </head>
 <body>
 
@@ -48,7 +48,7 @@
             <div class="row center-block">
                 <div class="col-md-6">
                     <div class="thumbnail center-block col-lg-offset-2">
-                        <img src="../../test_project/assets/pp.jpg" alt="...">
+                        <img src="<?php echo base_url('assets/pp.jpg'); ?>" alt="...">
                         <div class="caption">
                             <h3>Hoşgeldiniz</h3>
 

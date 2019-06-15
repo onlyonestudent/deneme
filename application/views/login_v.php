@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kullanıcı Giriş-Çıkış</title>
-    <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap-3.3.7-dist/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets//css/bootstrap.min.css'); ?>">
 </head>
 <body>
     <h3 class="text-center"> Giriş</h3><br>
